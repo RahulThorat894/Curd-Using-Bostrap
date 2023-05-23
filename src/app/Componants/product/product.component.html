@@ -1,0 +1,39 @@
+<!-- <p>product works!</p> -->
+
+<div class="container">
+
+    <div class="row">
+        <div class="md-col-6">
+
+           
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">mobile No</th>
+                    <th scope="col">email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody *ngFor="let i of empdata">
+                  <tr>
+                    <th scope="row">{{i.id}}</th>
+                    <td>{{i.name}}</td>
+                    <td>{{i.phone}}</td>
+                    <td>{{i.email}}</td>
+                    <td></td>
+                    <td><mat-icon id="upd"(click)="deletedata(i.id)">delete</mat-icon>
+                        <mat-icon id="upd" (click)="openDialog(i)">update</mat-icon> 
+
+                        <mat-icon id="view" (click)="View(i)">visibility</mat-icon>
+
+                    </td>
+
+                  </tr>
+                  </tbody>
+              </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+.mat-toolbar
+  {
+    background-color: blueviolet;
+    height: 50px;
+    position: fixed;
+  }
+  .icons
+  {
+    display: flex;
+    position: absolute;
+    left: 190vh;
+ }
+ .icons button
+ {
+    padding: 7px;
+ }
+ .heading
+ {
+    color: rgb(180, 222, 138);
+    font-size: larger;
+ }
+
+  
+
+  

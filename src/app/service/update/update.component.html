@@ -1,0 +1,31 @@
+<div class="main">
+    <div class="row">
+        <div class="md-col-6">
+            <div class="card">
+         <div class="from" [formGroup]="fromvalue">
+            <h1>Update From</h1>
+                <div class="from-group">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" placeholder="enter name" formControlName="name">
+                </div>
+                <div class="from-group">
+                    <label for="">phone</label>
+                    <input type="text" class="form-control" placeholder="enter phone" formControlName="phone">
+                </div>
+                <div class="from-group">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" placeholder="enter Email" formControlName="email">
+                </div>
+                <div class="from-group">
+                    <label for="">password</label>
+                    <input type="text" class="form-control" placeholder="enter Password" formControlName="password">
+                </div>
+                <div class="btn">
+                    <button class="btn btn-primary" (click)="updateda()">Update</button>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>

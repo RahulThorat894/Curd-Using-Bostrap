@@ -1,0 +1,10 @@
+.card
+{
+    width: 50vh;
+    height: 50vh;
+    border: 1px solid black;
+}
+.card h1
+{
+    margin: 20px;
+}

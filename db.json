@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "name": "RAHUL THORAT",
+      "phone": "09561069308",
+      "email": "rahulthorat905@gmail.com",
+      "password": "",
+      "id": 5
+    },
+    {
+      "email": "rahulthorat905@gmail.com",
+      "name": "Rahul Sh",
+      "phone": "9561069308",
+      "password": "P",
+      "id": 6
+    },
+    {
+      "email": "rahulthorat905@gmail.com",
+      "name": "Rahul Sh",
+      "phone": "9561069308",
+      "password": "P",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

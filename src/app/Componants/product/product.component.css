@@ -1,0 +1,16 @@
+.table
+{
+    margin-top: 70px;
+}
+
+#upd
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: blueviolet;
+
+}
+#del
+{
+    color: red;
+}
